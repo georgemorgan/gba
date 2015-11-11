@@ -1,6 +1,6 @@
 # Introduction
 
-I love writing bare metal ARM code. While there are a pluthora of development platforms available to do just that, you can't beat the retro feeling you get when writing code for an aging video game console.
+I love writing bare metal ARM code. While there are a plethora of development platforms available to do just that, you can't beat the retro feeling you get when writing code for an aging video game console.
 
 The GameBoy Advance SP is a great development platform. It has an LCD controller, DMA controller, audio controller, IO controller, and many more just begging to be put to use. Unfortunately, it's really difficult to find software development kits for the GBA that allow you to start with nothing and work your way up to the reward that is plotting a single pixel on the screen.
 
@@ -16,4 +16,4 @@ If you don't want to download `DevKitPro`, run a Google seach for `gbafix.cpp` a
 
 # Having Fun
 
-Once you've built your newfound GBA ROM, you need to test it! You can do this using an emulator, but that's not nearly as fun as running it on real hardware. For a starting point on how to do that, check out [this video](https://youtu.be/Zfmj_KPE_L4). If there is enough demand for an elaborate tutorial on compiling and running GBA ROMS from the ground up, I will make one and publish it to YouTube. If you would be interested in this, please reach out to me at the email found on my GitHub homepage.
+Once you've built your newfound GBA ROM, you need to test it! You can do this using an emulator, but that's not nearly as fun as running it on real hardware. For a starting point on how to do that, check out [this video](https://youtu.be/Zfmj_KPE_L4). If there is enough demand for an elaborate tutorial on compiling and running GBA ROMs from the ground up, I will make one and publish it to YouTube. If you would be interested in this, please reach out to me at the email found on my GitHub homepage.
