@@ -20,7 +20,7 @@ files = $(shell find . -name '*.c' -o -name '*.s')
 
 ldfiles = $(shell find . -name '*.ld')
 
-cflags = -std=c99 -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -nostartfiles -nostdlib -ffreestanding
+cflags = -std=c99 -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -nostartfiles -nostdlib -ffreestanding
 
 ldflags = $(foreach ldfile, $(ldfiles),-Wl,-T $(ldfile))
 

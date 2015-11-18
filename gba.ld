@@ -1,4 +1,4 @@
-OUTPUT_FORMAT("elf32-littlearm")
+OUTPUT_FORMAT("elf32-littlearm")
 
 OUTPUT_ARCH(arm)
 
@@ -16,9 +16,9 @@ __text_start__ = ORIGIN(EXTRAM);
 
 __intram_top__ = ORIGIN(INTRAM);
 
-__sp_irq__	=	__intram_top__ - 0x60;
+__sp_irq__	= __intram_top__ - 0x60;
 
-__sp_user__	=	__sp_irq__ - 0xA0;
+__sp_user__	= __sp_irq__ - 0xA0;
 
 SECTIONS {
 
